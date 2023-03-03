@@ -1,0 +1,816 @@
+Unity Editor version:    2021.3.15f1 (e8e88683f834)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP PREEMPT Wed Jun 15 07:09:31 UTC 2022
+Kernel version:          5.17.15-1-MANJARO
+Architecture:            x86_64
+Available memory:        15747 MB
+Using pre-set license
+Pro License: YES
+
+(Unity:348242): Gdk-CRITICAL **: 14:05:53.418: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+Desktop is 1366 x 768 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/iuri/Desktop/gameDevStudies/Isometric2D/2D_IsoTilemaps_DemoProject/2D_IsoTilemaps-master/2D_IsoTilemaps_Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+45029
+Successfully changed project path to: /home/iuri/Desktop/gameDevStudies/Isometric2D/2D_IsoTilemaps_DemoProject/2D_IsoTilemaps-master/2D_IsoTilemaps_Project
+/home/iuri/Desktop/gameDevStudies/Isometric2D/2D_IsoTilemaps_DemoProject/2D_IsoTilemaps-master/2D_IsoTilemaps_Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [139947576857152] Host "[IP] 192.168.15.166 [Port] 0 [Flags] 2 [Guid] 3971194957 [EditorId] 3971194957 [Version] 1048832 [Id] LinuxEditor(16,192.168.15.166) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [139947576857152] Host "[IP] 192.168.15.166 [Port] 0 [Flags] 2 [Guid] 3971194957 [EditorId] 3971194957 [Version] 1048832 [Id] LinuxEditor(16,192.168.15.166) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 72,27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path /home/iuri/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/iuri/Desktop/gameDevStudies/Isometric2D/2D_IsoTilemaps_DemoProject/2D_IsoTilemaps-master/2D_IsoTilemaps_Project/Assets
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) HD Graphics 620 (KBL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 22.3.5
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
+t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_share
+d_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 671543248
+Initialize mono
+Mono path[0] = '/home/iuri/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = '/home/iuri/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/iuri/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56242
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/iuri/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/iuri/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /home/iuri/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/iuri/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /home/iuri/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,012486 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 100,99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (622ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (79ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0,005856 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1,453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1454ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (1065ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (600ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (162ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0,98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (37,9 KB). Loaded Objects now: 2867.
+Memory consumption went from 88,8 MB to 88,7 MB.
+Total: 9,055226 ms (FindLiveObjects: 0,264518 ms CreateObjectMapping: 0,257581 ms MarkObjects: 8,349780 ms  DeleteObjects: 0,181563 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 294769,962204 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_39.png
+  artifactKey: Guid(a850e3cb437227244bbc4b9b7636ed96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_39.png using Guid(a850e3cb437227244bbc4b9b7636ed96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4d93962e3691c070e6aabaca3e88f7') in 0,094332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000027 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_35.png
+  artifactKey: Guid(f7870a2358f31334ebd1a8515f569d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_35.png using Guid(f7870a2358f31334ebd1a8515f569d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9607a9f6c5ec5eca9487e765fa6fde1a') in 0,008563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000041 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_44.png
+  artifactKey: Guid(e21a65effe19619458cb68008b23df18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_44.png using Guid(e21a65effe19619458cb68008b23df18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843573102942dff1ba3273d451c095b6') in 0,012055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000016 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_41.png
+  artifactKey: Guid(09c490b695820a04f807a86331d80b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_41.png using Guid(09c490b695820a04f807a86331d80b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a69848955d351c5d27b849faeae8132') in 0,008388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000026 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_47.png
+  artifactKey: Guid(769c311a90c4a234383a8af6191aad14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_47.png using Guid(769c311a90c4a234383a8af6191aad14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45702adddbb98bc9b40e5e82ae69f57') in 0,008814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000025 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_33.png
+  artifactKey: Guid(b065c566495121c4189b4c46ba6807c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_33.png using Guid(b065c566495121c4189b4c46ba6807c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c831a1d0848466535c5dd7dd131a14') in 0,013466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000027 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_56.png
+  artifactKey: Guid(686ee9eeb368418408fdf3cc4909abcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_56.png using Guid(686ee9eeb368418408fdf3cc4909abcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96542df3c9664877f8749c4536b66f69') in 0,011555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000021 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_30.png
+  artifactKey: Guid(4ac635f94f84b4f4fa2f7b10c7c6df8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_30.png using Guid(4ac635f94f84b4f4fa2f7b10c7c6df8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3825b24f6d0980706afec229b7f3bf4') in 0,008621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000023 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_37.png
+  artifactKey: Guid(6d6c2215fdf1a454b8b9cc44b33485fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_37.png using Guid(6d6c2215fdf1a454b8b9cc44b33485fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f782968b45b7215610609f491828f104') in 0,009418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000060 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_43.png
+  artifactKey: Guid(65be6319845f0d7428ee5d6bfa87cb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_43.png using Guid(65be6319845f0d7428ee5d6bfa87cb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7c8d75a50f71649d84e4623995e6bd') in 0,014388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000025 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_60.png
+  artifactKey: Guid(24c0305450ff4a64995db5df9d2f7691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_60.png using Guid(24c0305450ff4a64995db5df9d2f7691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982288f6664262720137969a7e989dff') in 0,009262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000023 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_27.png
+  artifactKey: Guid(42944e4d4dfd0db4383fea3ac007a80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_27.png using Guid(42944e4d4dfd0db4383fea3ac007a80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b59436bd25d7708274975d7cc31dab') in 0,008865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000025 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_42.png
+  artifactKey: Guid(c9bc8e040cdc62a408be641659432770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_42.png using Guid(c9bc8e040cdc62a408be641659432770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd465b8e787d18611adcf37b131b3b4f') in 0,011873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000019 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_50.png
+  artifactKey: Guid(4f9f4fa541bc1b346b9bc4e0e2e0596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_50.png using Guid(4f9f4fa541bc1b346b9bc4e0e2e0596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bbb83adfa904e4e9627878da973aac') in 0,007546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000025 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_29.png
+  artifactKey: Guid(c764768038379494b9f8f951d9439747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_29.png using Guid(c764768038379494b9f8f951d9439747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c241e21e78d2bf2535be56ee83105804') in 0,007601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000032 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_38.png
+  artifactKey: Guid(6a1d37c534e8fa3499655c6e1e2e4c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_38.png using Guid(6a1d37c534e8fa3499655c6e1e2e4c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a7b79a77e0dfe3fe8aeb9cfb9672c6') in 0,009465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000029 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_49.png
+  artifactKey: Guid(1b87aec1ab094024caebdb61a5435ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_49.png using Guid(1b87aec1ab094024caebdb61a5435ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d59ad6a1cd13617d498d9403de39ed') in 0,008550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000024 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_52.png
+  artifactKey: Guid(6e63751acc85d5c43be35911455ea70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_52.png using Guid(6e63751acc85d5c43be35911455ea70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09a445345fc221e8ead3a9ea5f97544') in 0,009370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000026 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_31.png
+  artifactKey: Guid(72f13be8376eb3f42a1c7c845fdc9c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_31.png using Guid(72f13be8376eb3f42a1c7c845fdc9c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dc2287c8fed5c382c8e3b47ad64fb1') in 0,012612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000024 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_58.png
+  artifactKey: Guid(e9b44863d12db21478e256a2bbd98a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_58.png using Guid(e9b44863d12db21478e256a2bbd98a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ba3af1e328331d3ad74fcc51a335f8') in 0,011668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000022 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_57.png
+  artifactKey: Guid(47cd4a05829f1ed44920f7edeb6ec741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_57.png using Guid(47cd4a05829f1ed44920f7edeb6ec741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512212eb423e2e737e6f2dca25ba0ecc') in 0,009008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000060 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_61.png
+  artifactKey: Guid(1bc9bbe52e2a15e45bd6d6a10b17fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_61.png using Guid(1bc9bbe52e2a15e45bd6d6a10b17fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948df3c10f69e1ad79db07a0be270c49') in 0,008432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000038 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_51.png
+  artifactKey: Guid(bfa68fa1ecab7bc41b2b30c9fb798d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_51.png using Guid(bfa68fa1ecab7bc41b2b30c9fb798d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f727007a050745e3658a4cc9f86ab6f') in 0,010547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000067 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_45.png
+  artifactKey: Guid(a8795f8997ac5db49a6ce2e6dc3242e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_45.png using Guid(a8795f8997ac5db49a6ce2e6dc3242e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa3c78b2321e2d97f592793c7671ae7') in 0,007173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000024 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_46.png
+  artifactKey: Guid(22abad6aac53adb4f9458354ef74bc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_46.png using Guid(22abad6aac53adb4f9458354ef74bc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5446b3e6913cd05586ec5f03705e0012') in 0,008489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000022 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_36.png
+  artifactKey: Guid(ab6e01dfc06c8fd46a222a421b0ae0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_36.png using Guid(ab6e01dfc06c8fd46a222a421b0ae0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465c6d70dfb1a50ee3c1ce984312426c') in 0,009489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000020 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_32.png
+  artifactKey: Guid(6116a469054b956468c62d4805e1d26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_32.png using Guid(6116a469054b956468c62d4805e1d26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422708c462e3bd7c5decba0f6633de71') in 0,008522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000022 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_40.png
+  artifactKey: Guid(eca51b4c05d4ca2478c82f07f0430cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_40.png using Guid(eca51b4c05d4ca2478c82f07f0430cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9a3fad7e3ccff4b33a8546803ae761') in 0,008526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000022 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_53.png
+  artifactKey: Guid(cc502a41dd51d89409115ee643436b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_53.png using Guid(cc502a41dd51d89409115ee643436b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ea1babd2cf09fdae54815e424c33f5') in 0,005825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000016 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_55.png
+  artifactKey: Guid(2737e736644300b499af0f9ae935cb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_55.png using Guid(2737e736644300b499af0f9ae935cb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bea7720b3d4990aa47ad4a4fa0d862') in 0,005810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000017 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_59.png
+  artifactKey: Guid(b627cf3cf4f824441a04c9168cd6b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_59.png using Guid(b627cf3cf4f824441a04c9168cd6b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26087104e6462bf722fc3815136d3dd') in 0,006323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000022 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_34.png
+  artifactKey: Guid(8106b417afff10d4fa35cfd800501443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_34.png using Guid(8106b417afff10d4fa35cfd800501443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a5fc1c45c468f7aa64bbd4f6cc6a97') in 0,005888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000026 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_62.png
+  artifactKey: Guid(5b2311dd7593a364683ad9036568125a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_62.png using Guid(5b2311dd7593a364683ad9036568125a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e202419b6f60359acd30f2d70f8a578') in 0,005357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000018 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_48.png
+  artifactKey: Guid(6a0b6657c26f475488d67dc2451c3c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_48.png using Guid(6a0b6657c26f475488d67dc2451c3c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b539410f666c16264d1ad602144750') in 0,005458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000017 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_28.png
+  artifactKey: Guid(18d96ab9487052e478e9089c6d8303a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_28.png using Guid(18d96ab9487052e478e9089c6d8303a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edd6384a9d4c4ee5252543aaf7ebafb') in 0,005565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000015 seconds.
+  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_54.png
+  artifactKey: Guid(2cfc7c21f44666d49ae04c77dac81cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_54.png using Guid(2cfc7c21f44666d49ae04c77dac81cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c062da938d2ef95b2addc896bf30ac') in 0,005657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4074,407210 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_FlatSand.asset
+  artifactKey: Guid(fb746cdab0ec8e54cad132ee946dc959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_FlatSand.asset using Guid(fb746cdab0ec8e54cad132ee946dc959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1c2769fd85c81050f22cf9143fa42b') in 0,211187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000049 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_RaisedSnow.asset
+  artifactKey: Guid(f84b12e27ceeac749ba15cb2200fbfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_RaisedSnow.asset using Guid(f84b12e27ceeac749ba15cb2200fbfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30767369988b4a6c992b7ba7b624b534') in 0,018554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000039 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenCave_RaisedFloor.asset
+  artifactKey: Guid(3289d0408ed39374e92d96169a3ce996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenCave_RaisedFloor.asset using Guid(3289d0408ed39374e92d96169a3ce996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408ae3a0741993667e30eca18f49528e') in 0,041737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000033 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_RaisedStone.asset
+  artifactKey: Guid(3db0b9e7ad952704baa47e26ebf3906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_RaisedStone.asset using Guid(3db0b9e7ad952704baa47e26ebf3906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9965789a71aae3b30858110409615e23') in 0,034031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000033 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_FlatSnow.asset
+  artifactKey: Guid(77c91fc06982639439f4df82d7c5d97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_FlatSnow.asset using Guid(77c91fc06982639439f4df82d7c5d97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aba2b0d0759d9a1c63aea511fe080d9') in 0,059905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000035 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_FlatGrass.asset
+  artifactKey: Guid(739d9c76a05e863419d2aa2a25eac230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_FlatGrass.asset using Guid(739d9c76a05e863419d2aa2a25eac230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f08792079a8d2b6827290c23f2bd19') in 0,015861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000040 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_FlatGround.asset
+  artifactKey: Guid(45008f92726043a4abadf03a81430678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_FlatGround.asset using Guid(45008f92726043a4abadf03a81430678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39baf4b1048d189b2f77cb3c4262e48') in 0,012482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000041 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_Plants.asset
+  artifactKey: Guid(c6301f103f0aaaa4b8c92f10d50d35d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_Plants.asset using Guid(c6301f103f0aaaa4b8c92f10d50d35d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b757026ace8dcdbdd53c6cf39b7eb745') in 0,056797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000029 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_RaisedSand.asset
+  artifactKey: Guid(6be7c6c7786fa7a45afae2d6002cbcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_RaisedSand.asset using Guid(6be7c6c7786fa7a45afae2d6002cbcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f51cbd5e5b3898053c5019d59f5770c') in 0,011891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000031 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_RaisedBlueStone.asset
+  artifactKey: Guid(7bf281396c092e441a872b432e8b73c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_RaisedBlueStone.asset using Guid(7bf281396c092e441a872b432e8b73c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136040c8c55eca6ae128d3689c721a1e') in 0,012910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000031 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenCave_Coral.asset
+  artifactKey: Guid(bf438c60cdb63bb49b537bcded69beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenCave_Coral.asset using Guid(bf438c60cdb63bb49b537bcded69beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b956656889351f876a8d28339c83ebf3') in 0,015174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000032 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_FlatStone.asset
+  artifactKey: Guid(78c5e35c4336d2146ab0a4ce7b44ce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_FlatStone.asset using Guid(78c5e35c4336d2146ab0a4ce7b44ce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d83f4eb5ea32c9c0398ac8a8e92c6e') in 0,016889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000036 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_RaisedGrass.asset
+  artifactKey: Guid(1e3819d62e6f6b74eb55efd9b7862080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_RaisedGrass.asset using Guid(1e3819d62e6f6b74eb55efd9b7862080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3d5fca6f18aea58191ae77ca9d3a35') in 0,013940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000034 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_Planks.asset
+  artifactKey: Guid(f089279c83143f8418773c6b22439753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_Planks.asset using Guid(f089279c83143f8418773c6b22439753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9a77446564102e3acad5a9e45b42e3') in 0,017187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6,890289 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_23.png
+  artifactKey: Guid(8bd8a84fc6db3644fa4d984068398d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_23.png using Guid(8bd8a84fc6db3644fa4d984068398d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c083d9149b3c2efa7a5e390178315881') in 0,017784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000032 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_48.png
+  artifactKey: Guid(5f6864c303c8b0c4180c96eca1d47c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_48.png using Guid(5f6864c303c8b0c4180c96eca1d47c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1895d6bfb9d736d6f86701908973c9') in 0,034872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000021 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_50.png
+  artifactKey: Guid(e9fd822aa2b1f1c46a19863b254e8e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_50.png using Guid(e9fd822aa2b1f1c46a19863b254e8e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb262f62cf512d65ea7458a7f75df84') in 0,009234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000028 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_61.png
+  artifactKey: Guid(3e6f4dd2f9f1d39498413685594f5bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_61.png using Guid(3e6f4dd2f9f1d39498413685594f5bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18eefcda2e615393262165c6c2cdffdc') in 0,018948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000152 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_46.png
+  artifactKey: Guid(494805abc9a0585449ccf7818e78a834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_46.png using Guid(494805abc9a0585449ccf7818e78a834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e385f00aefd96656874d113f04b8df') in 0,014123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000047 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_63.png
+  artifactKey: Guid(98f2642b52e0df044b6a3fbddbec1a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_63.png using Guid(98f2642b52e0df044b6a3fbddbec1a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6553041628e2266eda797dc487ff293a') in 0,024784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000024 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_47.png
+  artifactKey: Guid(daaaae34d0708154baf5d0353d396a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_47.png using Guid(daaaae34d0708154baf5d0353d396a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78501097ae75237494a1acda424bbb3c') in 0,015033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000031 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_60.png
+  artifactKey: Guid(c64f4950b5299954aba95a6400bfba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_60.png using Guid(c64f4950b5299954aba95a6400bfba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878b1ce92640f3ebf7cc85185d310027') in 0,020559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000050 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_66.png
+  artifactKey: Guid(5dd956ffeab868541a3cf46b1be513c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_66.png using Guid(5dd956ffeab868541a3cf46b1be513c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec050635578c657bd28085bd9b51e3a3') in 0,039257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000054 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_59.png
+  artifactKey: Guid(298d6e68c0cd48746a19fbbf30d2bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_59.png using Guid(298d6e68c0cd48746a19fbbf30d2bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf1ae456a3189b76c308c48a660e4bd') in 0,025688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000031 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_67.png
+  artifactKey: Guid(168d52d0af897854f926318ce9f0cf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_67.png using Guid(168d52d0af897854f926318ce9f0cf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd341913693b3defd86ba66c8b83545') in 0,023749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000038 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_62.png
+  artifactKey: Guid(bafd22bb916594742a7c301816c24d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_62.png using Guid(bafd22bb916594742a7c301816c24d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad8afd4b82c4909afb6d94878225079') in 0,014553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000050 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_57.png
+  artifactKey: Guid(aa22187d5a686b0449798b05aef5d043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_57.png using Guid(aa22187d5a686b0449798b05aef5d043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc12c3cd739aac0a5585cad872c38ce6') in 0,012106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000027 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_65.png
+  artifactKey: Guid(63a584ccc0f46ff4389d2e18fc09a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_65.png using Guid(63a584ccc0f46ff4389d2e18fc09a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7687363c2f48562f365195cd02d94426') in 0,020368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000031 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_54.png
+  artifactKey: Guid(d0af17dc956c6d84b9b80a1345f2e01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_54.png using Guid(d0af17dc956c6d84b9b80a1345f2e01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c454124f051e5e94eb2b09d888b0c2a8') in 0,045898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000030 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_56.png
+  artifactKey: Guid(1ca26f020a1a57145bd237282c36196f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_56.png using Guid(1ca26f020a1a57145bd237282c36196f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484262318b71e19b0ffbe8ccb7837d57') in 0,060201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000029 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_51.png
+  artifactKey: Guid(a326f9c1a909d3441a0bd01ad4f23ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_51.png using Guid(a326f9c1a909d3441a0bd01ad4f23ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d64145a1d2f58ec00fa8ae3c2e0f784') in 0,023656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000052 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_58.png
+  artifactKey: Guid(778c64e443f8c8f4d9ef636747cb6ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_58.png using Guid(778c64e443f8c8f4d9ef636747cb6ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77e13b548c6d54670e964285e12917d') in 0,016601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000050 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_55.png
+  artifactKey: Guid(ed50c1ae4775eea499022f215889061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_55.png using Guid(ed50c1ae4775eea499022f215889061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376535948edaeda0b9bd6b0775aab3d5') in 0,020586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000088 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_49.png
+  artifactKey: Guid(52cef375ef1d0554a90c0ba8d1674c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_49.png using Guid(52cef375ef1d0554a90c0ba8d1674c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb2e5d69c3bbf74fc1dc51b7c878fd0') in 0,018352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000034 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_64.png
+  artifactKey: Guid(f77a8439147b8f042ab1d13d5d78e902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_64.png using Guid(f77a8439147b8f042ab1d13d5d78e902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0614dcc480a44abdc8c099f503f4973f') in 0,015641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41,069698 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_23_custom.asset
+  artifactKey: Guid(2dfe99b3bf1a8a0f983f36b149e25001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_23_custom.asset using Guid(2dfe99b3bf1a8a0f983f36b149e25001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c978131358877c2c568969d0c221b926') in 0,011690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3638,984882 seconds.
+  path: Assets/Tilemaps/TilemapMaterials/TilemapColliderBacksideMaterial.mat
+  artifactKey: Guid(a7efa27f5ecfd4c87a0273b6187ba70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/TilemapMaterials/TilemapColliderBacksideMaterial.mat using Guid(a7efa27f5ecfd4c87a0273b6187ba70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3658225ec79d2b6bd27a0e698a7c16') in 0,298915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000042 seconds.
+  path: Assets/Tilemaps/TilemapMaterials/TilemapColliderMaterial.mat
+  artifactKey: Guid(bb4385f4a2462447bb4066e97f17aa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/TilemapMaterials/TilemapColliderMaterial.mat using Guid(bb4385f4a2462447bb4066e97f17aa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7281a704252829581fb5138e28a3cb57') in 0,010299 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,011299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2,49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,099 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3101ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (2533ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (605ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (1460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (75ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (779ms)
+				ProcessInitializeOnLoadMethodAttributes (413ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 30,66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (23,0 KB). Loaded Objects now: 2921.
+Memory consumption went from 90,5 MB to 90,5 MB.
+Total: 19,019694 ms (FindLiveObjects: 0,413812 ms CreateObjectMapping: 0,277009 ms MarkObjects: 18,276271 ms  DeleteObjects: 0,049672 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 843,398104 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86b3be9f1e7ccfbc46c109d41c34639') in 0,030216 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,011030 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2,08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,741 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3743ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (3050ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (516ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (1588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (71ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (745ms)
+				ProcessInitializeOnLoadMethodAttributes (531ms)
+				AfterProcessingInitializeOnLoad (70ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 31,61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (23,2 KB). Loaded Objects now: 2924.
+Memory consumption went from 90,5 MB to 90,5 MB.
+Total: 17,757818 ms (FindLiveObjects: 0,276590 ms CreateObjectMapping: 0,173485 ms MarkObjects: 17,228652 ms  DeleteObjects: 0,076814 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 189,099794 seconds.
+  path: Assets/Scripts/HideTilemapColliderOnPlay.cs
+  artifactKey: Guid(0351af0e3d731ca4ab7c72b47fda7daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HideTilemapColliderOnPlay.cs using Guid(0351af0e3d731ca4ab7c72b47fda7daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847167a40dccb6ae77db5ee96685d7e1') in 0,009742 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,028593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4,398 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4401ms)
+		BeginReloadAssembly (509ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (3440ms)
+			LoadAssemblies (240ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (790ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (269ms)
+			SetupLoadedEditorAssemblies (1864ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (100ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (996ms)
+				ProcessInitializeOnLoadMethodAttributes (548ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15,15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (23,0 KB). Loaded Objects now: 2927.
+Memory consumption went from 90,5 MB to 90,5 MB.
+Total: 19,478719 ms (FindLiveObjects: 0,360430 ms CreateObjectMapping: 0,303907 ms MarkObjects: 18,406726 ms  DeleteObjects: 0,404369 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
